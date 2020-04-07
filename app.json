@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "react-native-elements",
+    "sdkVersion": "37.0.0",
+    "version": "2.0.13",
+    "description": "Sketch Elements for React Native: https://react-native.shop/elements",
+    "orientation": "portrait",
+    "privacy": "public",
+    "icon": "./assets/app.png",
+    "primaryColor": "#00AAFF",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "otf",
+        "ttf"
+      ]
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#ffffff",
+      "barStyle": "dark-content"
+    },
+    "ios": {
+      "bundleIdentifier": "com.wcandillon.reactnativeelements",
+      "config": {
+        "googleMapsApiKey": "AIzaSyC6xPJ9MHnYk8EJYBcg9uQ_P0aC1aXTOdE"
+      },
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.wcandillon.reactnativeelements"
+    },
+    "assetBundlePatterns": [
+      "**/*.ttf",
+      "**/*.otf",
+      "**/*.png"
+    ],
+    "slug": "react-native-elements",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}
